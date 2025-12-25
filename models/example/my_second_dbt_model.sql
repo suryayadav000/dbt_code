@@ -1,6 +1,10 @@
 
 -- Use the `ref` function to select from other models
 
-select *
-from {{ ref('my_first_dbt_model') }}
-where id = 1
+with source_data as(
+    select 2 as id 
+    union all
+    select 1 as id 
+)
+
+select * from source_data
