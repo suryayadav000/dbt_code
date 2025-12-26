@@ -1,0 +1,10 @@
+
+version: 2
+sources: 
+    - name: CUST_DATA_M
+      database: "{{( 'VINAY' )}}"
+      schema: GHAC_STAGE
+      tables:
+        - name: customers
+        - name: customer_financials
+
