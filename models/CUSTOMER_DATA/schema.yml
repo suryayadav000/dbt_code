@@ -7,4 +7,6 @@ sources:
       tables:
         - name: customers
         - name: customer_financials
+        - name: stg_customers_snap
+        - name: stg_customers_snap_test
 
