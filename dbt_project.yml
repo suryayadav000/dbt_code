@@ -42,5 +42,6 @@ models:
       +materialized: table
     CUSTOMER_DATA: 
       +materialized: table
-
+snapshots:
+  +target_schema: snapshot
                
